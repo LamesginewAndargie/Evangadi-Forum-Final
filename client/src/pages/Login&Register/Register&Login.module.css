@@ -1,0 +1,243 @@
+/* Body and General Styling */
+.register_and_login_section {
+  background-image: url("https://www.evangadi.com/themes/humans/assets/images/misc/bg-svg-f.svg");
+  background-size: cover;
+  background-color: rgb(251, 249, 249);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.outer_container > div{
+  max-width: 600px;
+}
+
+/* Sign In Form Section (Original login section) */
+.login_wrapper {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Form Styling */
+.login_inner_wrapper {
+  margin: 0 auto;
+  padding-top: 10px;
+  
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 10px ;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 0.5px solid #cccccc;
+}
+
+.halves .inputBox {
+  margin-top: -10px;
+}
+
+
+/* Login Button */
+.login_button {
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 15px 25px;
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.login_button:hover {
+  background-color: #3d59e5;
+}
+
+/* Forgot Password Section */
+.forgot_password {
+  text-align: end;
+  margin-top: 20px;
+}
+
+.forgot_password a {
+  color: #ff9800;
+  text-decoration: none;
+}
+.login_heading{
+  text-align: center;
+}
+
+/* ------ Register Specific Styles (new styles) ------ */
+
+/* Register form container */
+.register_form_container {
+  margin-top: 80px;
+}
+
+.register_form_wrapper {
+  margin-top: 90px;
+}
+
+.register_form_heading h3 {
+  font-size: 28px;
+}
+
+/* Input fields for Register */
+.register_input_box {
+  margin-bottom: 20px;
+}
+
+/* Submit button for Register */
+.register_submit_btn {
+  color: white;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+/* Shared Form Section Styling */
+.shared_form_container {
+  padding-top: 20px;
+}
+
+.shared_form_wrapper {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.shared_form_inner_wrapper {
+  padding: 20px;
+}
+
+
+/* Heading for Register/Login */
+.shared_form_heading {
+  text-align: center;
+}
+
+.shared_form_heading h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.shared_form_heading p {
+  font-size: 14px;
+}
+
+.link {
+  color: var(--primary-color) !important;
+  text-decoration: none;
+}
+
+.already_account {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Privacy & Terms Section */
+.privacy_terms {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Submit Button */
+.submit_btn {
+  color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.submit_btn:hover {
+  background-color: #3d59e5;
+}
+
+/* About Section */
+.about_section {
+  margin-top: 10px;
+}
+
+.about_section h1 {
+  font-size: 45px;
+  color: #892600;
+  font-weight: 700;
+}
+
+.about_section h4 {
+  font-size: 16px;
+  line-height: 1.4em;
+  padding-bottom: 5px;
+  margin-top: 50px;
+  color: #da7000;
+}
+
+.about_section p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #7b6d6d;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.how_it_works_btn {
+  background-color: #ff9800;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 40px;
+  width: 250px;
+}
+
+.how_it_works_link {
+  color: white;
+  text-decoration: none;
+  margin: 70px 30px;
+
+}
+
+
+.password_container{
+  position: relative;
+}
+.showPassword{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+.inputBox .showPassword{
+  top: 10px;
+
+
+}
+.err{
+  text-align: center;
+}
+
+form .usernames{
+  border: 1px solid rgb(201, 200, 200);
+  outline: none;
+  background: linear-gradient(to right, #FE8402 0%, #FE8402 100%);
+  background-size: 0% 4px; 
+  background-repeat: no-repeat;
+  background-position: left bottom; 
+  transition: background-size .5s ease-in; 
+  box-shadow: none !important;
+}
+form input:focus {
+  background-size: 100% 2px; 
+}

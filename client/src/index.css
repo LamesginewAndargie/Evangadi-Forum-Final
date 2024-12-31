@@ -1,0 +1,21 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  /* font-size: 16px; */
+}
+
+:root {
+  --primary-color: #fe8402;
+  /* --button-color: #0000ff; */
+  --button-color: #516cf0;
+}
